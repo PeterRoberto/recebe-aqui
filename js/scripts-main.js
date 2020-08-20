@@ -1,0 +1,1 @@
+!function(){"use strict";function s(e){return 11===e.replace(/\D/g,"").length?"(00) 00000-0000":"(00) 0000-00009"}var e={onKeyPress:function(e,n,t,a){t.mask(s.apply({},arguments),a)}};$(".phone").mask(s,e),$(".date").mask("00/00/0000"),$(".time").mask("00:00")}();
